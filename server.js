@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 const cors=require('cors');
 const app=express();
 const PORT=3000;
-const MONGO_URL='mongodb+srv://shubhashree:shubhashree@cluster0.mqcypxw.mongodb.net/feedback?retryWrites=true&w=majority&appName=Cluster0'
+const MONGO_URL='mongodb+srv://shubhashree:shubhashree@cluster0.88hh6xe.mongodb.net/feedback?retryWrites=true&w=majority&appName=Cluster0'
 app.use(cors());
 app.use(express.json());
 const connectDb=async()=>{
